@@ -29,11 +29,11 @@ Run the main script from the project root directory:
 
 ```bash
 python main.py
-
-Example Overrides:
+```
 
 Specify a different test model and output file:
 
-
+```bash
 python main.py --test_model_name MyFineTunedModel --output_json_path ./results/MyFineTunedModel_eval.json
 ```
+
